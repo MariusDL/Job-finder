@@ -1,10 +1,10 @@
-## Project Name
+# Project Name
 Job-finder
 
-## Project Description
+# Project Description
 Android app where users can post or find jobs in their area. It is a personal project so I can learn using the google maps API.
 
-## Project Features
+# Project Features
 - Two types of users: normal users and workers
 - Login, register, automatic authentication
 - All users have a my account section where they can update personal details
@@ -18,61 +18,61 @@ Android app where users can post or find jobs in their area. It is a personal pr
 - The user that posted the job can cancel it only if the job has not been accepted by a worker
 
 
-## Prerequisites
+# Prerequisites
 - Android 8.0 (API level 26) 
 - Google services
 
-## Usage
+# Usage
 Open the project in Android Studio, then build the apk or run the app on AVD. 
 
-## Screenshots
-# Login
+# Screenshots
+## Login
 <img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/login.png" alt="app1" border="0" height="650">
 
-# Register
+## Register
 <img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/register.png" alt="app1" border="0" height="650">
 
-# My account
+## My account
 <img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/my%20account.png" alt="app1" border="0" height="650">
 
-# User - Home activity
+## User - Home activity
 <img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user%20-%20home%20activity.png" alt="app1" border="0" height="650">
 
-# User - Top menu
+## User - Top menu
 <img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/top%20menu.png" alt="app1" border="0" height="650">
 
-# User - Add job first step - Add job details 
+## User - Add job first step - Add job details 
 <img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user%20add%20job%201.png" alt="app1" border="0" height="650">
 
-# User - Add job first step - Select job type 
+## User - Add job first step - Select job type 
 <img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user%20add%20job%202.png" alt="app1" border="0" height="650">
 
-# User - Add job second step - Add due date and time
+## User - Add job second step - Add due date and time
 <img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user%20add%20job%203%20select%20date.png" alt="app1" border="0" height="650">
 
-# User - Add job third step - Add job location
+## User - Add job third step - Add job location
 <img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user%20add%20job%204%20select%20job%20location.png" alt="app1" border="0" height="650">
 
-# User sees all the jobs that he posted
+## User sees all the jobs that he posted
 <img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user-%20posted%20jobs.png" alt="app1" border="0" height="650">
 
-# User sees the posted job details
+## User sees the posted job details
 <img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user%20-%20sees%20posted%20job%20details.png" alt="app1" border="0" height="650">
 
-# Worker home activity
+## Worker home activity
 <img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/worker%20home%20activity.png" alt="app1" border="0" height="650">
 
-# Worker - Finds jobs first step - Select location
+## Worker - Finds jobs first step - Select location
 <img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/worker%20find%20job%201.png" alt="app1" border="0" height="650">
 
-# Worker - Finds jobs second step - See jobs in the selected area
+## Worker - Finds jobs second step - See jobs in the selected area
 <img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/worker%20find%20job%202.png" alt="app1" border="0" height="650">
 
-# Worker - Finds jobs third step - Selects job from the list with jobs in chosen area
+## Worker - Finds jobs third step - Selects job from the list with jobs in chosen area
 <img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/worker%20find%20job%203.png" alt="app1" border="0" height="650">
 
-# Worker sees the list with the accepted jobs
+## Worker sees the list with the accepted jobs
 <img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/worker%20sees%20jobs%20accepted.png" alt="app1" border="0" height="650">
 
-# Worker sees details of accepted job
+## Worker sees details of accepted job
 <img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/worker%20sees%20accepted%20job%20details.png" alt="app1" border="0" height="650">
