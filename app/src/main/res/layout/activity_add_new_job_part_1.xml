@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewJobActivityPart1"
+    android:orientation="vertical"
+    android:background="@drawable/background_design"
+    android:id="@+id/addNewJobActivityLayout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What do you need?"
+        android:textSize="25sp"
+        android:layout_margin="20dp"
+        android:textColor="#000"
+        />
+
+    <EditText
+        android:id="@+id/addNewJobActivityJobTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/inputs"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Job title"
+        android:textColorHint="#000"
+        android:textSize="20sp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/addNewJobActivitySelectTypeOfJob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select type of job"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:background="@drawable/spinner_background"
+        android:padding="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="start"
+        />
+
+    <EditText
+        android:id="@+id/addNewJobActivityJobDescription"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/inputs"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Job description"
+        android:textColorHint="#000"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:gravity="top"/>
+
+    <EditText
+        android:id="@+id/addNewJobActivityJobMoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/inputs"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Money offered"
+        android:inputType="number"
+        android:textColorHint="#000"
+        android:textSize="20sp"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/addNewJobActivityJobImage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/add_photo_vector"
+                android:background="@drawable/inputs"
+                android:padding="10dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/addNewJobActivityAddImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add image"
+                android:textSize="15sp"
+                android:background="@color/orange"
+                android:layout_margin="15dp"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addNewJobActivityNextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/orange"
+        android:text="Next"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"/>
+</LinearLayout>

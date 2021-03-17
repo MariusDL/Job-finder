@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.marius.jobfinder">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WorkerViewsPendingJobDetails"></activity>
+        <activity android:name=".WorkerViewPendingJobs" />
+        <activity android:name=".WorkerSeesJobsAround3" />
+        <activity android:name=".WorkerSeesJobsAround2" />
+        <activity android:name=".WorkerSeeJobsAround1" />
+        <activity android:name=".CompletedJobDetails" />
+        <activity android:name=".UserViewsPendingJobDetails" />
+        <activity android:name=".UserPendingJobs" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity android:name=".AddNewJobActivityPart3" />
+        <activity android:name=".AddNewJobActivityPart2" />
+        <activity android:name=".AddNewJobActivityPart1" />
+        <activity android:name=".JobsHistory" />
+        <activity android:name=".MyAccountActivity" />
+        <activity android:name=".HomeActivityWorker" />
+        <activity android:name=".HomeActivityUser" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

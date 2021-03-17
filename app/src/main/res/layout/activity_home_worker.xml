@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivityWorker"
+    android:orientation="vertical"
+    android:background="@drawable/background_design">
+
+    <ImageView
+        android:id="@+id/loginActivityLogo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/home_logo1"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/homeActivityWorkerPendingJobs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pending jobs"
+        android:textAllCaps="false"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#000"
+        android:textSize="19sp"
+        android:background="#F3A226"
+        />
+
+    <Button
+        android:id="@+id/homeActivityWorkerSeeJobsAround"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="See jobs around"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#000"
+        android:textSize="19sp"
+        android:background="#F3A226"
+        />
+
+</LinearLayout>
+
+

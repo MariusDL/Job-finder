@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompletedJobDetails"
+    android:orientation="vertical"
+    android:background="@drawable/background_design">
+
+    <LinearLayout
+        android:background="@drawable/inputs"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/completedJobDetailsJobIdTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job ID: "
+            android:textSize="15sp"
+            android:textColor="#000"/>
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000" />
+
+        <ImageView
+            android:id="@+id/completedJobDetailsJobImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/add_photo_vector"/>
+
+        <TextView
+            android:id="@+id/completedJobDetailsJobTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job title: "
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/completedJobDetailsTypeOfJob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type of job: "
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/completedJobDateCompleted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date completed: "
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/completedJobDetailsMoneyOffered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Money offered: "
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/completedJobDetailsJobDescription"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Job description: "
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/completedJobDetailsLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location: "
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/completedJobDetailsCompletedBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Completed by: "
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+            <Button
+                android:id="@+id/completedJobDetailsContactWorkerButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact worker"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:background="@color/orange"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+
+    </LinearLayout>
+
+</LinearLayout>

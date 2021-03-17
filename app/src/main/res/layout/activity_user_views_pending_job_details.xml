@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserViewsPendingJobDetails"
+    android:orientation="vertical"
+    android:background="@drawable/background_design">
+
+    <LinearLayout
+        android:background="@drawable/inputs"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/userViewPendingJobDetailsJobIdTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job ID: "
+            android:textSize="15sp"
+            android:textColor="#000"/>
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000" />
+
+        <ImageView
+            android:id="@+id/userViewPendingJobDetailsJobImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/add_photo_vector"/>
+
+        <TextView
+            android:id="@+id/userViewPendingJobDetailsJobTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job title: "
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/userViewPendingJobDetailsTypeOfJob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type of job: "
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/userViewPendingJobDetailsDueBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Due by: "
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/userViewPendingJobDetailsMoneyOffered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Money offered: "
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/userViewPendingJobDetailsJobDescription"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Job description: "
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/userViewPendingJobDetailsJobStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job status: "
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/userViewPendingJobDetailsAcceptedBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accepted by: "
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/userViewPendingJobDetailsCancelJobButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cancel job"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:background="@color/orange"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="20dp"
+                />
+
+            <Button
+                android:id="@+id/userViewPendingJobDetailsJobCompletedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Job completed"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:background="@color/orange"
+                android:layout_marginRight="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/userViewPendingJobDetailsContactWorkerButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact worker"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:background="@color/orange"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

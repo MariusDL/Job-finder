@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkerSeeJobsAround1"
+    android:background="@drawable/background_design"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select location"
+        android:textSize="25sp"
+        android:layout_margin="20dp"
+        android:textColor="#000"
+        />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/workerSeeJobs1AroundMap"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        />
+
+    <EditText
+        android:id="@+id/workerSeeJobsAround1AddressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inputs"
+        android:padding="10dp"
+        android:hint="Enter address"
+        />
+
+    <Button
+        android:id="@+id/workerSeeJobsAround1SelectRangeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/spinner_background"
+        android:padding="10dp"
+        android:text="Select range"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <Button
+                android:id="@+id/workerSeeJobsAround1FindJobsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Find jobs"
+                android:textSize="15sp"
+                android:background="@color/orange"
+                android:layout_margin="15dp"
+                android:onClick="onMapReady"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+            <Button
+                android:id="@+id/workerSeeJobsAround1YourLocationButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your location"
+                android:textSize="15sp"
+                android:background="@color/orange"
+                android:layout_margin="15dp"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/workerSeeJobsAround1NextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textSize="15sp"
+        android:background="@color/orange"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

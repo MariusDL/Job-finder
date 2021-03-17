@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/optionMenuHome"
+        android:title="Home"
+        app:showAsAction="never"/>
+    <item android:id="@+id/optionMenuJobsHistory"
+        android:title="Jobs history"
+        app:showAsAction="never"/>
+    <item android:id="@+id/optionMenuMyAccount"
+        android:title="My account"
+        app:showAsAction="never"/>
+    <item android:id="@+id/signOutOptionMenu"
+        android:title="Sign out"
+        app:showAsAction="never"/>
+</menu>

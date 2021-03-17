@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyAccountActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background_design">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <ImageView
+            android:id="@+id/myAccountActivityProfilePhotoImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/add_photo_vector"
+            android:layout_margin="20dp"
+            android:background="@drawable/inputs"
+            android:padding="5dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/myAccountActivityEditProfileButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit profile"
+            android:textSize="15sp"
+            android:background="@color/orange"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:id="@+id/myAccountActivitySelectProfilePhotoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select profile photo"
+            android:textSize="15sp"
+            android:background="@color/orange"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/myAccountActivityFirstNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First name"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:background="@drawable/inputs"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/myAccountActivityLastNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last name"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:background="@drawable/inputs"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/myAccountActivityPhoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:inputType="phone"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:background="@drawable/inputs"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/myAccountActivityPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:background="@drawable/inputs"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/myAccountActivitySelectServicesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select offered services"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:background="@drawable/spinner_background"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <TextView
+            android:id="@+id/myAccountActivityTotalJobsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total jobs: 0"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

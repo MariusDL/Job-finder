@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background_design">
+
+    <ImageView
+        android:id="@+id/loginActivityLogo"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:src="@drawable/home_logo1"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"/>
+
+    <EditText
+        android:id="@+id/loginActivityEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Email"
+        android:textColorHint="#000"
+        android:textColor="#000000"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/inputs"
+        android:padding="10dp"
+        android:drawableStart="@drawable/email_vector"
+        android:drawablePadding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/loginActivityPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Password"
+        android:textColorHint="#000"
+        android:textColor="#000000"
+        android:inputType="textPassword"
+        android:background="@drawable/inputs"
+        android:padding="10dp"
+        android:drawableStart="@drawable/password_vector"
+        android:drawablePadding="10dp"
+        />
+
+    <Button
+        android:id="@+id/loginActivityLoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#000"
+        android:textSize="19sp"
+        android:background="#F3A226"
+        />
+
+    <TextView
+        android:id="@+id/loginActivityCreateAccountTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create account"
+        android:textColor="#07123A"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        />
+
+
+</LinearLayout>
