@@ -2,7 +2,8 @@
 Job-finder
 
 # Project Description
-Android app where users can post or find jobs in their area. It is a personal project so I can learn using the google maps API.
+Android app where users can post or find jobs in their area. 
+It does not have a nice UI beacuse it is just a personal project so I can learn using the Google Maps API.
 
 # Project Features
 - Two types of users: normal users and workers
