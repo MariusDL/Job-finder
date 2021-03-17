@@ -27,7 +27,7 @@ Open the project in Android Studio, then build the apk or run the app on AVD.
 
 ## Screenshots
 # Login
-<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/login.png" alt="app1" border="0">
+<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/login.png" alt="app1" border="0" height="600">
 
 # Register
 <img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/register.png" alt="app1" border="0">
