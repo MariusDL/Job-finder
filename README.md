@@ -27,52 +27,52 @@ Open the project in Android Studio, then build the apk or run the app on AVD.
 
 ## Screenshots
 # Login
-<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/login.png" alt="app1" border="0" height="600">
+<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/login.png" alt="app1" border="0" height="650">
 
 # Register
-<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/register.png" alt="app1" border="0">
+<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/register.png" alt="app1" border="0" height="650">
 
 # My account
-<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/my%20account.png" alt="app1" border="0">
+<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/my%20account.png" alt="app1" border="0" height="650">
 
 # User - Home activity
-<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user%20-%20home%20activity.png" alt="app1" border="0">
+<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user%20-%20home%20activity.png" alt="app1" border="0" height="650">
 
 # User - Top menu
-<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/top%20menu.png" alt="app1" border="0">
+<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/top%20menu.png" alt="app1" border="0" height="650">
 
 # User - Add job first step - Add job details 
-<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user%20add%20job%201.png" alt="app1" border="0">
+<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user%20add%20job%201.png" alt="app1" border="0" height="650">
 
 # User - Add job first step - Select job type 
-<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user%20add%20job%202.png" alt="app1" border="0">
+<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user%20add%20job%202.png" alt="app1" border="0" height="650">
 
 # User - Add job second step - Add due date and time
-<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user%20add%20job%203%20select%20date.png" alt="app1" border="0">
+<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user%20add%20job%203%20select%20date.png" alt="app1" border="0" height="650">
 
 # User - Add job third step - Add job location
-<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user%20add%20job%204%20select%20job%20location.png" alt="app1" border="0">
+<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user%20add%20job%204%20select%20job%20location.png" alt="app1" border="0" height="650">
 
 # User sees all the jobs that he posted
-<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user-%20posted%20jobs.png" alt="app1" border="0">
+<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user-%20posted%20jobs.png" alt="app1" border="0" height="650">
 
 # User sees the posted job details
-<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user%20-%20sees%20posted%20job%20details.png" alt="app1" border="0">
+<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/user%20-%20sees%20posted%20job%20details.png" alt="app1" border="0" height="650">
 
 # Worker home activity
-<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/worker%20home%20activity.png" alt="app1" border="0">
+<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/worker%20home%20activity.png" alt="app1" border="0" height="650">
 
 # Worker - Finds jobs first step - Select location
-<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/worker%20find%20job%201.png" alt="app1" border="0">
+<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/worker%20find%20job%201.png" alt="app1" border="0" height="650">
 
 # Worker - Finds jobs second step - See jobs in the selected area
-<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/worker%20find%20job%202.png" alt="app1" border="0">
+<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/worker%20find%20job%202.png" alt="app1" border="0" height="650">
 
 # Worker - Finds jobs third step - Selects job from the list with jobs in chosen area
-<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/worker%20find%20job%203.png" alt="app1" border="0">
+<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/worker%20find%20job%203.png" alt="app1" border="0" height="650">
 
 # Worker sees the list with the accepted jobs
-<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/worker%20sees%20jobs%20accepted.png" alt="app1" border="0">
+<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/worker%20sees%20jobs%20accepted.png" alt="app1" border="0" height="650">
 
 # Worker sees details of accepted job
-<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/worker%20sees%20accepted%20job%20details.png" alt="app1" border="0">
+<img src="https://raw.githubusercontent.com/MariusDL/Job-finder/main/readme-images/worker%20sees%20accepted%20job%20details.png" alt="app1" border="0" height="650">
