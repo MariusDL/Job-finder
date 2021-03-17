@@ -17,7 +17,7 @@ It does not have a nice UI beacuse it is just a personal project so I can learn 
 - Worker can launch google maps from the app to navigate to the job location
 - A worker can cancel a job that he accepted and the job goes back to the pending list
 - The user that posted the job can cancel it only if the job has not been accepted by a worker
-
+- All the data is stored in Firebase
 
 # Prerequisites
 - Android 8.0 (API level 26) 
